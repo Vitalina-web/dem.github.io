@@ -101,85 +101,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Снежная страница с Pudelinka</title>
-
-  <style>
-    /* Подключаем шрифт Pudelinka */
-    @font-face {
-      font-family: 'Pudelinka';
-      src: url('pudelinka.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    /* Применяем шрифт ко всему тексту */
-    * {
-      font-family: 'Pudelinka', cursive, sans-serif !important;
-    }
-
-    /* Стили для фона и текста */
-    body {
-      margin: 0;
-      padding: 40px 20px;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #1a2a6c, #2c3e50);
-      color: white;
-      overflow-x: hidden;
-      position: relative;
-    }
-
-    h1, p {
-      text-align: center;
-      max-width: 800px;
-      margin: 0 auto 20px;
-      text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
-    }
-
-    /* Снежинки — CSS-анимация */
-    .snowflake {
-      position: absolute;
-      top: -20px;
-      color: #fff;
-      font-size: 24px;
-      user-select: none;
-      opacity: 0.8;
-      animation: fall linear infinite;
-    }
-
-    @keyframes fall {
-      to {
-        transform: translateY(105vh) rotate(360deg);
-      }
-    }
-  </style>
-</head>
-<body>
-  <h1>❄️ Зимняя сказка ❄️</h1>
-  <p>Этот текст написан шрифтом «Pudelinka» — нежным, как снег.</p>
-  <p>Снежинки падают сверху, а весь текст подчиняется одному стилю!</p>
-
-  <script>
-    // Генерируем снежинки
-    const snowflakes = '❄❅❆✻✼❇❈❉❊❋';
-    const container = document.body;
-    const snowCount = 50;
-
-    for (let i = 0; i < snowCount; i++) {
-      const snow = document.createElement('div');
-      snow.classList.add('snowflake');
-      snow.innerHTML = snowflakes.charAt(Math.floor(Math.random() * snowflakes.length));
-      
-      // Случайное положение по горизонтали
-      snow.style.left = Math.random() * 100 + 'vw';
-      // Случайный размер
-      const size = 10 + Math.random() * 20;
-      snow.style.fontSize = size + 'px';
-      // Случайная скорость падения (5–15 сек)
-      snow.style.animationDuration = (5 + Math.random() * 10) + 's';
-      // Случайная задержка
-      snow.style.animationDelay = Math.random() * 5 + 's';
-
+  
       container.appendChild(snow);
     }
   </script>
@@ -191,3 +113,4 @@ pug: 89.09%
 Griffon Bruxellois: 9.61%
 Pekingese: 0.66%
 </p>
+<h2>24 февраля 2026</h2>
