@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Страница — 1" id="krgbXdn_fmXPYXOYDJCa">
+    <mxGraphModel dx="3127" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-16" value="Врач&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="130" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-17" value="Пол" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-18" value="Возраст" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-20" value="группа крови" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-21" value="Медсестра" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="170" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-22" value="стаж работы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="396" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-23" value="колличество выходных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="396" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-24" value="ФИО" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-25" value="Палата" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="396" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-26" value="график работы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="396" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-27" value="Операция" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-28" value="Инструменты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-29" value="колличество врачей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-30" value="Хирург&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-31" value="размер&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-32" value="&amp;nbsp;База данных стоматологии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-90" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nvd32rB7zKHCSQGvGi7f-32" target="nvd32rB7zKHCSQGvGi7f-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="110" as="sourcePoint" />
+            <mxPoint x="250" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.955;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nvd32rB7zKHCSQGvGi7f-32" target="nvd32rB7zKHCSQGvGi7f-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nvd32rB7zKHCSQGvGi7f-32" target="nvd32rB7zKHCSQGvGi7f-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="230" as="sourcePoint" />
+            <mxPoint x="890" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-38" value="стаж работы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-39" value="возраст" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="396" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvd32rB7zKHCSQGvGi7f-40" value="номер кабинета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
